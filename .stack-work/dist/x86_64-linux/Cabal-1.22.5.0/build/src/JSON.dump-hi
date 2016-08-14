@@ -1,0 +1,2763 @@
+
+==================== FINAL INTERFACE ====================
+2016-08-01 20:44:22.03929 UTC
+
+interface JsonX_CYX1ZKz0trn5l4pYnt4JFa:JSON [orphan module] 7103
+  interface hash: 5cdeb3180cb04f4d0ff5b82ed4146e35
+  ABI hash: d499cf03c3f6c3f399445242be8983db
+  export-list hash: 4542d4722552a120a3c3937cb58d3b8f
+  orphan hash: 706eea9a0170531c2f06e3b45e082c42
+  flag hash: 59c31e4a1757563112ac58992fa494a4
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+module dependencies:
+package dependencies: aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0 base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I integer-gmp-1.0.0.0
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      scientific-0.3.4.9@scien_1WVNjGUftkQ9QzH4DOM2n1
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8
+orphans: aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson.Types.Generic
+         aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8:XmlRx.Types
+import  -/  aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson f350ca8067ea2e8f51cc610dc21b49b2
+import  -/  aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson.Types.Class 4017b8910690d6921a2c24c269640c5d
+import  -/  aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson.Types.Instances 1db2f6a7a31f3c430c183fc4e461dd2d
+import  -/  aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson.Types.Internal 363ac71e24a915d9cd7c66a97aff3108
+import  -/  base-4.8.2.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.2.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  scientific-0.3.4.9@scien_1WVNjGUftkQ9QzH4DOM2n1:Data.Scientific b5db87d21b48c1b14f271db466b9f6d0
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text 677c532e2dd56476a11a0a8a53880ce7
+import  -/  xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8:XmlRx.Types dc7bf8e5110cb639d83bec49d3070f4d
+0ae4c10172867e84cd4b5f61bc1c97a6
+  $fFromJSONAction ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Action
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONAction_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Action>_N)) -}
+d22389139221c091b46607126d15a841
+  $fFromJSONAction1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "step"#) -}
+68eafba451bde19c1be852c5ac98175c
+  $fFromJSONAction2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ": "#) -}
+1aca9d60158b603a4df8df2e152f058a
+  $fFromJSONAction3 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.Step f r
+    -> f r
+  {- Arity: 3,
+     Unfolding: (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Step f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONAction_msg3) -}
+7a272d32e04cc8794de3b5b4d47d2ae7
+  $fFromJSONAction4 :: [GHC.Types.Char]
+  {- Unfolding: (case Data.Text.Show.$w$cshow
+                        JSON.$fFromJSONAction1 of ww { (#,#) ww1 ww2 ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   (GHC.Types.: @ GHC.Types.Char ww1 ww2)
+                   JSON.$fFromJSONAction5 }) -}
+000aa66e7b4de6c9124b486fdb467efa
+  $fFromJSONAction5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# " not present"#) -}
+d50e0fa55351c4c2ece114279a8f5f5f
+  $fFromJSONAction6 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.Action f r
+    -> f r
+  {- Arity: 3, Strictness: <L,1*U><C(C(S)),1*C1(C1(U))><L,A>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Action f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONAction7) -}
+a06216d160dea6966db6091220d1df42
+  $fFromJSONAction7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'action' JSON"#) -}
+9e26a048da28b8556d68baefe8d89f7a
+  $fFromJSONAction_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Action
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: Data.Aeson.Types.Internal.Value ->
+                 case ds of wild {
+                   DEFAULT
+                   -> JSON.$fFromJSONAction6
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <XmlRx.Types.Action>_R))
+                   Data.Aeson.Types.Internal.Object v
+                   -> let {
+                        m :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Step
+                        = case JSON.$fFromJSONAction1 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                          case Data.Aeson.Types.Instances.$w$slookup
+                                 @ Data.Aeson.Types.Internal.Value
+                                 ww1
+                                 ww2
+                                 ww3
+                                 v of wild1 {
+                            GHC.Base.Nothing
+                            -> JSON.$fFromJSONAction3
+                                 `cast`
+                               (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                         <XmlRx.Types.Step>_R))
+                            GHC.Base.Just v1
+                            -> let {
+                                 a98 :: [GHC.Types.Char]
+                                 = GHC.CString.unpackAppendCString#
+                                     "failed to parse field "#
+                                     (let {
+                                        a99 :: GHC.Prim.Int# = GHC.Prim.+# ww2 ww3
+                                      } in
+                                      letrec {
+                                        $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                                          {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                                        = \ ww4 :: GHC.Prim.Int# ->
+                                          case GHC.Prim.tagToEnum#
+                                                 @ GHC.Types.Bool
+                                                 (GHC.Prim.>=# ww4 a99) of wild2 {
+                                            GHC.Types.False
+                                            -> case GHC.Prim.indexWord16Array#
+                                                      ww1
+                                                      ww4 of r# { DEFAULT ->
+                                               case GHC.Prim.tagToEnum#
+                                                      @ GHC.Types.Bool
+                                                      (GHC.Prim.geWord# r# __word 55296) of wild3 {
+                                                 GHC.Types.False
+                                                 -> GHC.Types.:
+                                                      @ GHC.Types.Char
+                                                      (GHC.Types.C#
+                                                         (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                                      ($wunfold (GHC.Prim.+# ww4 1))
+                                                 GHC.Types.True
+                                                 -> case GHC.Prim.tagToEnum#
+                                                           @ GHC.Types.Bool
+                                                           (GHC.Prim.leWord#
+                                                              r#
+                                                              __word 56319) of wild4 {
+                                                      GHC.Types.False
+                                                      -> GHC.Types.:
+                                                           @ GHC.Types.Char
+                                                           (GHC.Types.C#
+                                                              (GHC.Prim.chr#
+                                                                 (GHC.Prim.word2Int# r#)))
+                                                           ($wunfold (GHC.Prim.+# ww4 1))
+                                                      GHC.Types.True
+                                                      -> case GHC.Prim.indexWord16Array#
+                                                                ww1
+                                                                (GHC.Prim.+#
+                                                                   ww4
+                                                                   1) of r#1 { DEFAULT ->
+                                                         GHC.Types.:
+                                                           @ GHC.Types.Char
+                                                           (GHC.Types.C#
+                                                              (GHC.Prim.chr#
+                                                                 (GHC.Prim.+#
+                                                                    (GHC.Prim.+#
+                                                                       (GHC.Prim.uncheckedIShiftL#
+                                                                          (GHC.Prim.-#
+                                                                             (GHC.Prim.word2Int# r#)
+                                                                             55296)
+                                                                          10)
+                                                                       (GHC.Prim.-#
+                                                                          (GHC.Prim.word2Int# r#1)
+                                                                          56320))
+                                                                    65536)))
+                                                           ($wunfold (GHC.Prim.+# ww4 2)) } } } }
+                                            GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                                      } in
+                                      GHC.Base.++
+                                        @ GHC.Types.Char
+                                        ($wunfold ww2)
+                                        JSON.$fFromJSONAction2)
+                               } in
+                               let {
+                                 p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Step
+                                 = JSON.$fFromJSONAction_$cparseJSON1 v1
+                               } in
+                               (\ @ (f1 :: * -> *)
+                                  @ r
+                                  path :: Data.Aeson.Types.Internal.JSONPath
+                                  kf :: Data.Aeson.Types.Internal.Failure f1 r
+                                  ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Step f1 r ->
+                                p `cast`
+                                (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Step>_R)
+                                  @ f1
+                                  @ r
+                                  (GHC.Types.:
+                                     @ Data.Aeson.Types.Internal.JSONPathElement
+                                     JSON.$fFromJSONAction_pathElem
+                                     path)
+                                  (\ p' :: Data.Aeson.Types.Internal.JSONPath
+                                     m1 :: GHC.Base.String ->
+                                   kf p' (GHC.Base.++ @ GHC.Types.Char a98 m1))
+                                  ks)
+                                 `cast`
+                               (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                         <XmlRx.Types.Step>_R)) } }
+                      } in
+                      (\ @ (f1 :: * -> *)
+                         @ r
+                         path :: Data.Aeson.Types.Internal.JSONPath
+                         kf :: Data.Aeson.Types.Internal.Failure f1 r
+                         ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Action f1 r ->
+                       m `cast`
+                       (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Step>_R)
+                         @ f1
+                         @ r
+                         path
+                         kf
+                         (\ a98 :: XmlRx.Types.Step -> ks (XmlRx.Types.Action a98)))
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <XmlRx.Types.Action>_R)) }) -}
+c6ac4b75f39209437e94ed43ca4fba8a
+  $fFromJSONAction_$cparseJSON1 ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Step
+  {- Arity: 1, Strictness: <S,1*U> -}
+ffbd027d966ea922d4dae67e4ea9d632
+  $fFromJSONAction_msg3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackAppendCString#
+                   "key "#
+                   JSON.$fFromJSONAction4) -}
+45c01d381eceb21aec7e1f540eb44896
+  $fFromJSONAction_pathElem ::
+    Data.Aeson.Types.Internal.JSONPathElement
+  {- Unfolding: (Data.Aeson.Types.Internal.Key
+                   JSON.$fFromJSONAction1) -}
+15c4582c579e8d1101d5de08229783ff
+  $fFromJSONAlias ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Alias
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONAlias_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Alias>_N)) -}
+382b01ea3d93a5869c2697276cae595a
+  $fFromJSONAliasRole ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.AliasRole
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONAliasRole_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.AliasRole>_N)) -}
+8b3e3ea93c8cad617ab0e6d9b0d2077a
+  $fFromJSONAliasRole_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.AliasRole
+  {- Arity: 1, Strictness: <S,1*U> -}
+549cbe2797bfa740d8cf8afaadd49c4e
+  $fFromJSONAlias_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Alias
+  {- Arity: 1, Strictness: <S,1*U> -}
+af0640e59164021a9c97ba539300b318
+  $fFromJSONCatalog ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Catalog
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONCatalog_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Catalog>_N)) -}
+5b602f24a5a4620cbc0fdc0b3cb9bc35
+  $fFromJSONCatalog_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Catalog
+  {- Arity: 1, Strictness: <S,1*U> -}
+4c98e68462ec5d33890d0483c29f9e27
+  $fFromJSONChemical ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Chemical
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONChemical_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Chemical>_N)) -}
+1b3d2b73fb65b729abe230b36f61b82d
+  $fFromJSONChemical_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Chemical
+  {- Arity: 1, Strictness: <S,1*U> -}
+4e103d565b65fb6ae43f6efe1af4d654
+  $fFromJSONIngredient ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Ingredient
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONIngredient_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Ingredient>_N)) -}
+cc9727350a8ae224fe19beb26140739f
+  $fFromJSONIngredientRef ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.IngredientRef
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONIngredientRef_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.IngredientRef>_N)) -}
+28bd0aa755205e891445c30442eb5583
+  $fFromJSONIngredientRef1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.IngredientRef f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.IngredientRef f r ->
+                 case ds of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement eta)
+                        JSON.$fFromJSONIngredientRef2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2
+                        v `cast`
+                        (Trans
+                             (Sym (XmlRx.Types.NTCo:XmlText[0]))
+                             (Sym (XmlRx.Types.NTCo:IngredientRef[0]))) }) -}
+68bed8ee4fccc9eafbef53e57bad1ab5
+  $fFromJSONIngredientRef2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'ingredient_ref' JSON"#) -}
+48943b6f521f46c0f0d0c3921f692b55
+  $fFromJSONIngredientRef_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.IngredientRef
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONIngredientRef1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.IngredientRef>_R)) -}
+704f88b82d9bcd52d9c157aed63f3f2e
+  $fFromJSONIngredient_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Ingredient
+  {- Arity: 1, Strictness: <S,1*U> -}
+27b4d5cf8dfead2007356b94b3ae8701
+  $fFromJSONInstrument ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Instrument
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONInstrument_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Instrument>_N)) -}
+8971325ecc63e4dd4d17940304959ed0
+  $fFromJSONInstrumentRole ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.InstrumentRole
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONInstrumentRole_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.InstrumentRole>_N)) -}
+fd36da9172eee518905235f49bbe5086
+  $fFromJSONInstrumentRole_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentRole
+  {- Arity: 1, Strictness: <S,1*U> -}
+324b0942cd867ae74957d68abfa1cdc3
+  $fFromJSONInstrumentType ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.InstrumentType
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONInstrumentType_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.InstrumentType>_N)) -}
+42054684b22183825aa59e310b85d66e
+  $fFromJSONInstrumentType_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentType
+  {- Arity: 1, Strictness: <S,1*U> -}
+40c68956ce5e1f4b6acda5faf82672d3
+  $fFromJSONInstrument_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Instrument
+  {- Arity: 1, Strictness: <S,1*U> -}
+704e1122469e3b5d9ef2ebbced89012e
+  $fFromJSONLocation ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Location
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONLocation_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Location>_N)) -}
+c4bf13c0db741fb38222f85eddd8ddaf
+  $fFromJSONLocation_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Location
+  {- Arity: 1, Strictness: <S,1*U> -}
+85c2cf358097be14187f5c2d8aff03ff
+  $fFromJSONMaterial ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Material
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONMaterial_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Material>_N)) -}
+009ed97499f421330ad8e07ac6eb5066
+  $fFromJSONMaterialComponent ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.MaterialComponent
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONMaterialComponent_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.MaterialComponent>_N)) -}
+8eea7100f0a8b45041e52fe6a7ebf34f
+  $fFromJSONMaterialComponent_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.MaterialComponent
+  {- Arity: 1, Strictness: <S,1*U> -}
+d62026a0b1461c1a7e7b798aecd0b0dd
+  $fFromJSONMaterialRole ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.MaterialRole
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONMaterialRole_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.MaterialRole>_N)) -}
+ed122b776f06b203aa0336b6e0e035e0
+  $fFromJSONMaterialRole_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.MaterialRole
+  {- Arity: 1, Strictness: <S,1*U> -}
+3322eeac44521365c3ca99e58ebdd7ee
+  $fFromJSONMaterial_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Material
+  {- Arity: 1, Strictness: <S,1*U> -}
+9fb1c62bafbbfb1f3161eec2ff1f92ef
+  $fFromJSONMeasUnit ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.MeasUnit
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONMeasUnit_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.MeasUnit>_N)) -}
+26681525f0efa2571caa83b09e60dc55
+  $fFromJSONMeasUnit_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.MeasUnit
+  {- Arity: 1, Strictness: <S,1*U> -}
+7ad5d8d18bc591c03b10d149ca9e1da7
+  $fFromJSONOperation ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Operation
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONOperation_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Operation>_N)) -}
+413b1d1e97d6e27934b9d8030662797a
+  $fFromJSONOperation_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Operation
+  {- Arity: 1, Strictness: <S,1*U> -}
+f39893c17c4c42ef02ea787c6e0038d7
+  $fFromJSONParameter ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Parameter
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONParameter_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Parameter>_N)) -}
+13e481cfdbf2b3690edffb200f6eeeb9
+  $fFromJSONParameter_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Parameter
+  {- Arity: 1, Strictness: <S,1*U> -}
+1b28f450cb9855a7e2754650065ea4cb
+  $fFromJSONPerson ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Person
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONPerson_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Person>_N)) -}
+aa4487441d71404e1c0773ef15eb2956
+  $fFromJSONPerson_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Person
+  {- Arity: 1, Strictness: <S,1*U> -}
+69d6ba43fd963271407da167a25e55b8
+  $fFromJSONProcess ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Process
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONProcess_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Process>_N)) -}
+7ac2c8382d8aad7ad92713cdd3d49d63
+  $fFromJSONProcess_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Process
+  {- Arity: 1, Strictness: <S,1*U> -}
+46dd557c8063e535d958f87be657bbbc
+  $fFromJSONProduct ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Product
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONProduct_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Product>_N)) -}
+52b61ef3cd01a4b251da38125956d9ce
+  $fFromJSONProduct_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Product
+  {- Arity: 1, Strictness: <S,1*U> -}
+a5a15126577df17ca8eb787f3019caba
+  $fFromJSONRecipe ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Recipe
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONRecipe_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Recipe>_N)) -}
+95e5e0d8937e84ef59cf09ea8b721f63
+  $fFromJSONRecipeName ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.RecipeName
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONRecipeName_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.RecipeName>_N)) -}
+4c4350b1241ecb26c9e6be331724b359
+  $fFromJSONRecipeName1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeName f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.RecipeName f r ->
+                 case ds of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement eta)
+                        JSON.$fFromJSONRecipeName2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2 v `cast` (Sym (XmlRx.Types.NTCo:RecipeName[0])) }) -}
+4afa0c33a3b1462fdc3309f6a71d6a23
+  $fFromJSONRecipeName2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'recipe_name' JSON"#) -}
+31612992eab5bf8826356e7227e49fc6
+  $fFromJSONRecipeName_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeName
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONRecipeName1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.RecipeName>_R)) -}
+dbe33ec949af4baab6762d14e4afdc49
+  $fFromJSONRecipePath ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.RecipePath
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONRecipePath_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.RecipePath>_N)) -}
+e3998241dac04bfeedb64da98f033b20
+  $fFromJSONRecipePath1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipePath f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.RecipePath f r ->
+                 case ds of wild {
+                   DEFAULT -> JSON.$fFromJSONRecipePath2 @ f @ r eta eta1 eta2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2
+                        (GHC.Types.:
+                           @ XmlRx.Types.RecipeName
+                           v `cast` (Sym (XmlRx.Types.NTCo:RecipeName[0]))
+                           (GHC.Types.[] @ XmlRx.Types.RecipeName))
+                          `cast`
+                        (Sym (XmlRx.Types.NTCo:RecipePath[0])) }) -}
+1669c91bd9ef5d92c180e49c857c22c1
+  $fFromJSONRecipePath2 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipePath f r
+    -> f r
+  {- Arity: 3, Strictness: <L,1*U><C(C(S)),1*C1(C1(U))><L,A>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.RecipePath f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONRecipePath3) -}
+13fc4c08aa1618e1f86c96db0ddebb53
+  $fFromJSONRecipePath3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'recipe_path' JSON"#) -}
+797cb4981571872c45a2cc863f9751b7
+  $fFromJSONRecipePath_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipePath
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONRecipePath1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.RecipePath>_R)) -}
+9287c33853572c8ab6b5a92e8e7877c4
+  $fFromJSONRecipeStatus ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.RecipeStatus
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONRecipeStatus_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.RecipeStatus>_N)) -}
+c3a99289e34b884cd86fbe248db81a4f
+  $fFromJSONRecipeStatus1 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeStatus f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeStatus f r ->
+                 ks XmlRx.Types.Unknown) -}
+e1b8370b37f644db44843ec2ef55cf3b
+  $fFromJSONRecipeStatus2 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeStatus f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeStatus f r ->
+                 ks XmlRx.Types.Draft) -}
+515010bd3a0f420645c92112fab97e89
+  $fFromJSONRecipeStatus3 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeStatus f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeStatus f r ->
+                 ks XmlRx.Types.Approved) -}
+499820699ed538e61af7ee0d7c343960
+  $fFromJSONRecipeStatus4 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeStatus f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeStatus f r ->
+                 ks XmlRx.Types.Review) -}
+5fdd322615fb20bfa635b075d4f28c9a
+  $fFromJSONRecipeStatus5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Review"#) -}
+4ec13f25345caf85be2283600d4322f3
+  $fFromJSONRecipeStatus6 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Approved"#) -}
+194baae6dcd59bae879223b4f29d05fa
+  $fFromJSONRecipeStatus7 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Draft"#) -}
+78d96c5937bbd4d34c68f14f77ac57be
+  $fFromJSONRecipeStatus8 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Unknown"#) -}
+19f7c814ff185f184a69f52a10c3d601
+  $fFromJSONRecipeStatus9 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeStatus f r
+    -> f r
+  {- Arity: 3,
+     Unfolding: (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.RecipeStatus f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONRecipeStatus_msg3) -}
+a01c27c47de391b15ceee29c80855e0a
+  $fFromJSONRecipeStatus_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeStatus
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: Data.Aeson.Types.Internal.Value ->
+                 case ds of wild {
+                   DEFAULT
+                   -> JSON.$fFromJSONRecipeStatus9
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <XmlRx.Types.RecipeStatus>_R))
+                   Data.Aeson.Types.Internal.String ds1
+                   -> case ds1 of wild1 { Data.Text.Internal.Text dt dt1 dt2 ->
+                      case JSON.$fFromJSONRecipeStatus8 of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                      let {
+                        $j :: GHC.Prim.Void#
+                              -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeStatus
+                          {- Arity: 1, Strictness: <L,A> -}
+                        = \ w :: GHC.Prim.Void#[OneShot] ->
+                          case JSON.$fFromJSONRecipeStatus7 of wild3 { Data.Text.Internal.Text dt7 dt8 dt9 ->
+                          let {
+                            $j1 :: GHC.Prim.Void#
+                                   -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeStatus
+                              {- Arity: 1, Strictness: <L,A> -}
+                            = \ w1 :: GHC.Prim.Void#[OneShot] ->
+                              case JSON.$fFromJSONRecipeStatus6 of wild4 { Data.Text.Internal.Text dt10 dt11 dt12 ->
+                              let {
+                                $j2 :: GHC.Prim.Void#
+                                       -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeStatus
+                                  {- Arity: 1, Strictness: <L,A> -}
+                                = \ w2 :: GHC.Prim.Void#[OneShot] ->
+                                  case JSON.$fFromJSONRecipeStatus5 of wild5 { Data.Text.Internal.Text dt13 dt14 dt15 ->
+                                  case GHC.Prim.tagToEnum#
+                                         @ GHC.Types.Bool
+                                         (GHC.Prim.==# dt2 dt15) of wild6 {
+                                    GHC.Types.False
+                                    -> JSON.$fFromJSONRecipeStatus9
+                                         `cast`
+                                       (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                 <XmlRx.Types.RecipeStatus>_R))
+                                    GHC.Types.True
+                                    -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.State#
+                                                                                                                       GHC.Prim.RealWorld
+                                                                                                                  -> (# GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld,
+                                                                                                                        GHC.Prim.Int# #)}
+                                              dt
+                                              (GHC.Prim.int2Word# dt1)
+                                              dt13
+                                              (GHC.Prim.int2Word# dt14)
+                                              (GHC.Prim.int2Word# dt2)
+                                              GHC.Prim.realWorld# of wild7 { (#,#) ds11 ds12 ->
+                                       case GHC.Prim.narrow32Int# ds12 of wild8 {
+                                         DEFAULT
+                                         -> JSON.$fFromJSONRecipeStatus9
+                                              `cast`
+                                            (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                      <XmlRx.Types.RecipeStatus>_R))
+                                         0
+                                         -> JSON.$fFromJSONRecipeStatus4
+                                              `cast`
+                                            (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                      <XmlRx.Types.RecipeStatus>_R)) } } } }
+                              } in
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.==# dt2 dt12) of wild5 {
+                                GHC.Types.False -> $j2 GHC.Prim.void#
+                                GHC.Types.True
+                                -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.State#
+                                                                                                                   GHC.Prim.RealWorld
+                                                                                                              -> (# GHC.Prim.State#
+                                                                                                                      GHC.Prim.RealWorld,
+                                                                                                                    GHC.Prim.Int# #)}
+                                          dt
+                                          (GHC.Prim.int2Word# dt1)
+                                          dt10
+                                          (GHC.Prim.int2Word# dt11)
+                                          (GHC.Prim.int2Word# dt2)
+                                          GHC.Prim.realWorld# of wild6 { (#,#) ds11 ds12 ->
+                                   case GHC.Prim.narrow32Int# ds12 of wild7 {
+                                     DEFAULT -> $j2 GHC.Prim.void#
+                                     0
+                                     -> JSON.$fFromJSONRecipeStatus3
+                                          `cast`
+                                        (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                  <XmlRx.Types.RecipeStatus>_R)) } } } }
+                          } in
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.==# dt2 dt9) of wild4 {
+                            GHC.Types.False -> $j1 GHC.Prim.void#
+                            GHC.Types.True
+                            -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.ByteArray#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.State#
+                                                                                                               GHC.Prim.RealWorld
+                                                                                                          -> (# GHC.Prim.State#
+                                                                                                                  GHC.Prim.RealWorld,
+                                                                                                                GHC.Prim.Int# #)}
+                                      dt
+                                      (GHC.Prim.int2Word# dt1)
+                                      dt7
+                                      (GHC.Prim.int2Word# dt8)
+                                      (GHC.Prim.int2Word# dt2)
+                                      GHC.Prim.realWorld# of wild5 { (#,#) ds11 ds12 ->
+                               case GHC.Prim.narrow32Int# ds12 of wild6 {
+                                 DEFAULT -> $j1 GHC.Prim.void#
+                                 0
+                                 -> JSON.$fFromJSONRecipeStatus2
+                                      `cast`
+                                    (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                              <XmlRx.Types.RecipeStatus>_R)) } } } }
+                      } in
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.==# dt2 dt5) of wild3 {
+                        GHC.Types.False -> $j GHC.Prim.void#
+                        GHC.Types.True
+                        -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.ByteArray#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.State#
+                                                                                                           GHC.Prim.RealWorld
+                                                                                                      -> (# GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld,
+                                                                                                            GHC.Prim.Int# #)}
+                                  dt
+                                  (GHC.Prim.int2Word# dt1)
+                                  dt3
+                                  (GHC.Prim.int2Word# dt4)
+                                  (GHC.Prim.int2Word# dt2)
+                                  GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                           case GHC.Prim.narrow32Int# ds12 of wild5 {
+                             DEFAULT -> $j GHC.Prim.void#
+                             0
+                             -> JSON.$fFromJSONRecipeStatus1
+                                  `cast`
+                                (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                          <XmlRx.Types.RecipeStatus>_R)) } } } } } }) -}
+d7dad21067ac3409125d931456b226ad
+  $fFromJSONRecipeStatus_msg3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'recipe_status' JSON"#) -}
+0cde1a1b06dc746d69b1bc179a10ed47
+  $fFromJSONRecipeType ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.RecipeType
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONRecipeType_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.RecipeType>_N)) -}
+2b7d4c47311e299536498ef98619ae14
+  $fFromJSONRecipeType1 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeType f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeType f r ->
+                 ks XmlRx.Types.LibraryRecipe) -}
+33ce6d406dfbf1524464e49798450774
+  $fFromJSONRecipeType2 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeType f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeType f r ->
+                 ks XmlRx.Types.GeneralRecipe) -}
+5871e8a379c0fbdf40d7dd6c88be22d7
+  $fFromJSONRecipeType3 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeType f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeType f r ->
+                 ks XmlRx.Types.SiteRecipe) -}
+275753f3eb5ef26925c0c4e72d197624
+  $fFromJSONRecipeType4 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeType f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.RecipeType f r ->
+                 ks XmlRx.Types.MasterRecipe) -}
+a3cca3405df62bacd103578c3f8c3a5a
+  $fFromJSONRecipeType5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Master"#) -}
+f347383781cabea0b754e7a6eccbe2c4
+  $fFromJSONRecipeType6 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Site"#) -}
+ed18d314c94b78a18fc494d6849d4972
+  $fFromJSONRecipeType7 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "General"#) -}
+c20d7728a3dd0d515b31858ad276a6fb
+  $fFromJSONRecipeType8 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Library"#) -}
+5c877a60afcdf5b85593a9b895dc9271
+  $fFromJSONRecipeType9 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.RecipeType f r
+    -> f r
+  {- Arity: 3,
+     Unfolding: (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.RecipeType f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONRecipeType_msg3) -}
+dd79cb05df2681ecad0fa4031ecee7f1
+  $fFromJSONRecipeType_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeType
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: Data.Aeson.Types.Internal.Value ->
+                 case ds of wild {
+                   DEFAULT
+                   -> JSON.$fFromJSONRecipeType9
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <XmlRx.Types.RecipeType>_R))
+                   Data.Aeson.Types.Internal.String ds1
+                   -> case ds1 of wild1 { Data.Text.Internal.Text dt dt1 dt2 ->
+                      case JSON.$fFromJSONRecipeType8 of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                      let {
+                        $j :: GHC.Prim.Void#
+                              -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeType
+                          {- Arity: 1, Strictness: <L,A> -}
+                        = \ w :: GHC.Prim.Void#[OneShot] ->
+                          case JSON.$fFromJSONRecipeType7 of wild3 { Data.Text.Internal.Text dt7 dt8 dt9 ->
+                          let {
+                            $j1 :: GHC.Prim.Void#
+                                   -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeType
+                              {- Arity: 1, Strictness: <L,A> -}
+                            = \ w1 :: GHC.Prim.Void#[OneShot] ->
+                              case JSON.$fFromJSONRecipeType6 of wild4 { Data.Text.Internal.Text dt10 dt11 dt12 ->
+                              let {
+                                $j2 :: GHC.Prim.Void#
+                                       -> Data.Aeson.Types.Internal.Parser XmlRx.Types.RecipeType
+                                  {- Arity: 1, Strictness: <L,A> -}
+                                = \ w2 :: GHC.Prim.Void#[OneShot] ->
+                                  case JSON.$fFromJSONRecipeType5 of wild5 { Data.Text.Internal.Text dt13 dt14 dt15 ->
+                                  case GHC.Prim.tagToEnum#
+                                         @ GHC.Types.Bool
+                                         (GHC.Prim.==# dt2 dt15) of wild6 {
+                                    GHC.Types.False
+                                    -> JSON.$fFromJSONRecipeType9
+                                         `cast`
+                                       (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                 <XmlRx.Types.RecipeType>_R))
+                                    GHC.Types.True
+                                    -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.State#
+                                                                                                                       GHC.Prim.RealWorld
+                                                                                                                  -> (# GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld,
+                                                                                                                        GHC.Prim.Int# #)}
+                                              dt
+                                              (GHC.Prim.int2Word# dt1)
+                                              dt13
+                                              (GHC.Prim.int2Word# dt14)
+                                              (GHC.Prim.int2Word# dt2)
+                                              GHC.Prim.realWorld# of wild7 { (#,#) ds11 ds12 ->
+                                       case GHC.Prim.narrow32Int# ds12 of wild8 {
+                                         DEFAULT
+                                         -> JSON.$fFromJSONRecipeType9
+                                              `cast`
+                                            (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                      <XmlRx.Types.RecipeType>_R))
+                                         0
+                                         -> JSON.$fFromJSONRecipeType4
+                                              `cast`
+                                            (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                      <XmlRx.Types.RecipeType>_R)) } } } }
+                              } in
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.==# dt2 dt12) of wild5 {
+                                GHC.Types.False -> $j2 GHC.Prim.void#
+                                GHC.Types.True
+                                -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.State#
+                                                                                                                   GHC.Prim.RealWorld
+                                                                                                              -> (# GHC.Prim.State#
+                                                                                                                      GHC.Prim.RealWorld,
+                                                                                                                    GHC.Prim.Int# #)}
+                                          dt
+                                          (GHC.Prim.int2Word# dt1)
+                                          dt10
+                                          (GHC.Prim.int2Word# dt11)
+                                          (GHC.Prim.int2Word# dt2)
+                                          GHC.Prim.realWorld# of wild6 { (#,#) ds11 ds12 ->
+                                   case GHC.Prim.narrow32Int# ds12 of wild7 {
+                                     DEFAULT -> $j2 GHC.Prim.void#
+                                     0
+                                     -> JSON.$fFromJSONRecipeType3
+                                          `cast`
+                                        (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                  <XmlRx.Types.RecipeType>_R)) } } } }
+                          } in
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.==# dt2 dt9) of wild4 {
+                            GHC.Types.False -> $j1 GHC.Prim.void#
+                            GHC.Types.True
+                            -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.ByteArray#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.State#
+                                                                                                               GHC.Prim.RealWorld
+                                                                                                          -> (# GHC.Prim.State#
+                                                                                                                  GHC.Prim.RealWorld,
+                                                                                                                GHC.Prim.Int# #)}
+                                      dt
+                                      (GHC.Prim.int2Word# dt1)
+                                      dt7
+                                      (GHC.Prim.int2Word# dt8)
+                                      (GHC.Prim.int2Word# dt2)
+                                      GHC.Prim.realWorld# of wild5 { (#,#) ds11 ds12 ->
+                               case GHC.Prim.narrow32Int# ds12 of wild6 {
+                                 DEFAULT -> $j1 GHC.Prim.void#
+                                 0
+                                 -> JSON.$fFromJSONRecipeType2
+                                      `cast`
+                                    (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                              <XmlRx.Types.RecipeType>_R)) } } } }
+                      } in
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.==# dt2 dt5) of wild3 {
+                        GHC.Types.False -> $j GHC.Prim.void#
+                        GHC.Types.True
+                        -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.ByteArray#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.State#
+                                                                                                           GHC.Prim.RealWorld
+                                                                                                      -> (# GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld,
+                                                                                                            GHC.Prim.Int# #)}
+                                  dt
+                                  (GHC.Prim.int2Word# dt1)
+                                  dt3
+                                  (GHC.Prim.int2Word# dt4)
+                                  (GHC.Prim.int2Word# dt2)
+                                  GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                           case GHC.Prim.narrow32Int# ds12 of wild5 {
+                             DEFAULT -> $j GHC.Prim.void#
+                             0
+                             -> JSON.$fFromJSONRecipeType1
+                                  `cast`
+                                (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                          <XmlRx.Types.RecipeType>_R)) } } } } } }) -}
+505a37cef319891e2b7014b853d4a488
+  $fFromJSONRecipeType_msg3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'recipe_type' JSON"#) -}
+315cc3ec3bb4c9ef18369cda01d67143
+  $fFromJSONRecipe_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Recipe
+  {- Arity: 1, Strictness: <S,1*U> -}
+c234f1cfe55d3824ae10fd7b75c7df1f
+  $fFromJSONSite :: Data.Aeson.Types.Class.FromJSON XmlRx.Types.Site
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONSite_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Site>_N)) -}
+7f0221797db300104d3c17e218f4e28b
+  $fFromJSONSite_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Site
+  {- Arity: 1, Strictness: <S,1*U> -}
+4d7877646ca6af81427e03a47f56962b
+  $fFromJSONSmilesString ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.SmilesString
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONSmilesString_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.SmilesString>_N)) -}
+f69492c5ce3d708227cc82dc0d939b70
+  $fFromJSONSmilesString1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.SmilesString f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.SmilesString f r ->
+                 case ds of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement eta)
+                        JSON.$fFromJSONSmilesString2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2 v `cast` (Sym (XmlRx.Types.NTCo:SmilesString[0])) }) -}
+ac20d927d789c09e121eb878467af24a
+  $fFromJSONSmilesString2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'smiles_string' JSON"#) -}
+9ec53b7d305996c9fb97e384bed0d678
+  $fFromJSONSmilesString_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.SmilesString
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONSmilesString1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.SmilesString>_R)) -}
+784bf2629826eced79581245e6867fb1
+  $fFromJSONStage ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.Stage
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONStage_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Stage>_N)) -}
+ff490567bd4fc69ac257ee30718df99f
+  $fFromJSONStage_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Stage
+  {- Arity: 1, Strictness: <S,1*U> -}
+8b344b302d720011b6fe916d72ec0f26
+  $fFromJSONStep :: Data.Aeson.Types.Class.FromJSON XmlRx.Types.Step
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONAction_$cparseJSON1
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.Step>_N)) -}
+978ba410c3c8ed32b2c692ad5eaa2fc2
+  $fFromJSONStepArg ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.StepArg
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONStepArg_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.StepArg>_N)) -}
+13134064bc31cf5fbdfcdc2c45f0922d
+  $fFromJSONStepArgAction ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.StepArgAction
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONStepArgAction_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.StepArgAction>_N)) -}
+6b9b14b3e04eec399703aa0507fb1ee2
+  $fFromJSONStepArgAction1 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepArgAction f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.StepArgAction f r ->
+                 ks XmlRx.Types.Input) -}
+f02c80b975bb9584b768baa0d2a67c28
+  $fFromJSONStepArgAction2 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepArgAction f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.StepArgAction f r ->
+                 ks XmlRx.Types.Output) -}
+c0fc2b96b2c0f49b031783fe7b620f7a
+  $fFromJSONStepArgAction3 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepArgAction f r
+    -> f r
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ (f :: * -> *)
+                   @ r
+                   _path :: Data.Aeson.Types.Internal.JSONPath
+                   _kf :: Data.Aeson.Types.Internal.Failure f r
+                   ks :: Data.Aeson.Types.Internal.Success
+                           XmlRx.Types.StepArgAction f r ->
+                 ks XmlRx.Types.InputOutput) -}
+78fd92ee777387ebfa76284a69ee3a7c
+  $fFromJSONStepArgAction4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Input_Output"#) -}
+a284eb80a4e169435269262b9b0b4915
+  $fFromJSONStepArgAction5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Output"#) -}
+2f13c73a8ff4d49e486100831d1db2a4
+  $fFromJSONStepArgAction6 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Input"#) -}
+18228f7184e8cdaadcfb4f19ae39f298
+  $fFromJSONStepArgAction7 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepArgAction f r
+    -> f r
+  {- Arity: 3,
+     Unfolding: (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.StepArgAction f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONStepArgAction_msg3) -}
+f12f1fed7454cd46e7e49dada20170b2
+  $fFromJSONStepArgAction_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepArgAction
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: Data.Aeson.Types.Internal.Value ->
+                 case ds of wild {
+                   DEFAULT
+                   -> JSON.$fFromJSONStepArgAction7
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <XmlRx.Types.StepArgAction>_R))
+                   Data.Aeson.Types.Internal.String ds1
+                   -> case ds1 of wild1 { Data.Text.Internal.Text dt dt1 dt2 ->
+                      case JSON.$fFromJSONStepArgAction6 of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                      let {
+                        $j :: GHC.Prim.Void#
+                              -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepArgAction
+                          {- Arity: 1, Strictness: <L,A> -}
+                        = \ w :: GHC.Prim.Void#[OneShot] ->
+                          case JSON.$fFromJSONStepArgAction5 of wild3 { Data.Text.Internal.Text dt7 dt8 dt9 ->
+                          let {
+                            $j1 :: GHC.Prim.Void#
+                                   -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepArgAction
+                              {- Arity: 1, Strictness: <L,A> -}
+                            = \ w1 :: GHC.Prim.Void#[OneShot] ->
+                              case JSON.$fFromJSONStepArgAction4 of wild4 { Data.Text.Internal.Text dt10 dt11 dt12 ->
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.==# dt2 dt12) of wild5 {
+                                GHC.Types.False
+                                -> JSON.$fFromJSONStepArgAction7
+                                     `cast`
+                                   (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                             <XmlRx.Types.StepArgAction>_R))
+                                GHC.Types.True
+                                -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.State#
+                                                                                                                   GHC.Prim.RealWorld
+                                                                                                              -> (# GHC.Prim.State#
+                                                                                                                      GHC.Prim.RealWorld,
+                                                                                                                    GHC.Prim.Int# #)}
+                                          dt
+                                          (GHC.Prim.int2Word# dt1)
+                                          dt10
+                                          (GHC.Prim.int2Word# dt11)
+                                          (GHC.Prim.int2Word# dt2)
+                                          GHC.Prim.realWorld# of wild6 { (#,#) ds11 ds12 ->
+                                   case GHC.Prim.narrow32Int# ds12 of wild7 {
+                                     DEFAULT
+                                     -> JSON.$fFromJSONStepArgAction7
+                                          `cast`
+                                        (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                  <XmlRx.Types.StepArgAction>_R))
+                                     0
+                                     -> JSON.$fFromJSONStepArgAction3
+                                          `cast`
+                                        (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                                  <XmlRx.Types.StepArgAction>_R)) } } } }
+                          } in
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.==# dt2 dt9) of wild4 {
+                            GHC.Types.False -> $j1 GHC.Prim.void#
+                            GHC.Types.True
+                            -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.ByteArray#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.Word#
+                                                                                                          -> GHC.Prim.State#
+                                                                                                               GHC.Prim.RealWorld
+                                                                                                          -> (# GHC.Prim.State#
+                                                                                                                  GHC.Prim.RealWorld,
+                                                                                                                GHC.Prim.Int# #)}
+                                      dt
+                                      (GHC.Prim.int2Word# dt1)
+                                      dt7
+                                      (GHC.Prim.int2Word# dt8)
+                                      (GHC.Prim.int2Word# dt2)
+                                      GHC.Prim.realWorld# of wild5 { (#,#) ds11 ds12 ->
+                               case GHC.Prim.narrow32Int# ds12 of wild6 {
+                                 DEFAULT -> $j1 GHC.Prim.void#
+                                 0
+                                 -> JSON.$fFromJSONStepArgAction2
+                                      `cast`
+                                    (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                              <XmlRx.Types.StepArgAction>_R)) } } } }
+                      } in
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.==# dt2 dt5) of wild3 {
+                        GHC.Types.False -> $j GHC.Prim.void#
+                        GHC.Types.True
+                        -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.ByteArray#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.Word#
+                                                                                                      -> GHC.Prim.State#
+                                                                                                           GHC.Prim.RealWorld
+                                                                                                      -> (# GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld,
+                                                                                                            GHC.Prim.Int# #)}
+                                  dt
+                                  (GHC.Prim.int2Word# dt1)
+                                  dt3
+                                  (GHC.Prim.int2Word# dt4)
+                                  (GHC.Prim.int2Word# dt2)
+                                  GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                           case GHC.Prim.narrow32Int# ds12 of wild5 {
+                             DEFAULT -> $j GHC.Prim.void#
+                             0
+                             -> JSON.$fFromJSONStepArgAction1
+                                  `cast`
+                                (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                          <XmlRx.Types.StepArgAction>_R)) } } } } } }) -}
+6903c55bfe43172fc3611c1c2f03e903
+  $fFromJSONStepArgAction_msg3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'input_output' JSON"#) -}
+d3f8defed1f8c6dc7dc813fc4618d1ee
+  $fFromJSONStepArg_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepArg
+  {- Arity: 1, Strictness: <S,1*U> -}
+f861207244ec2c0d714b9cbfde97148c
+  $fFromJSONStepLimit ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.StepLimit
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONStepLimit_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.StepLimit>_N)) -}
+e4ad90b83654fb93b00f8de90c93fd3d
+  $fFromJSONStepLimit_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepLimit
+  {- Arity: 1, Strictness: <S,1*U> -}
+7a391bbb216c54a278d998aae160cef8
+  $fFromJSONStepName ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.StepName
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONStepName_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.StepName>_N)) -}
+c04d79085eb9abd6d137af584d42081e
+  $fFromJSONStepName1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepName f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.StepName f r ->
+                 case ds of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement eta)
+                        JSON.$fFromJSONRecipeName2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2 v `cast` (Sym (XmlRx.Types.NTCo:StepName[0])) }) -}
+876dd03ff0d9a3df45c0d0a74dcc8a2d
+  $fFromJSONStepName_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepName
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONStepName1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.StepName>_R)) -}
+aba510a5182b8c920ee770333cf52ac2
+  $fFromJSONStepPath ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.StepPath
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONStepPath_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.StepPath>_N)) -}
+00ae1e2870c2d1f1607109c04e4c7474
+  $fFromJSONStepPath1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepPath f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.StepPath f r ->
+                 case ds of wild {
+                   DEFAULT -> JSON.$fFromJSONStepPath2 @ f @ r eta eta1 eta2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2
+                        (GHC.Types.:
+                           @ XmlRx.Types.StepName
+                           v `cast` (Sym (XmlRx.Types.NTCo:StepName[0]))
+                           (GHC.Types.[] @ XmlRx.Types.StepName))
+                          `cast`
+                        (Sym (XmlRx.Types.NTCo:StepPath[0])) }) -}
+e9f13e13287a38d5b73ebf25f1df3ef2
+  $fFromJSONStepPath2 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepPath f r
+    -> f r
+  {- Arity: 3, Strictness: <L,1*U><C(C(S)),1*C1(C1(U))><L,A>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.StepPath f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONStepPath3) -}
+4fd8f3fc7e982f8511a6af737803f575
+  $fFromJSONStepPath3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'step_path' JSON"#) -}
+14888e939e080d5d36ea4e10e7b4fbd0
+  $fFromJSONStepPath_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepPath
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONStepPath1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.StepPath>_R)) -}
+48832e87e5cd1bd139d538b772b15d41
+  $fFromJSONXmlBool ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.XmlBool
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONXmlBool_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.XmlBool>_N)) -}
+985843c0e6cf1850abdefbd4423a2c45
+  $fFromJSONXmlBool1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.XmlBool f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.XmlBool f r ->
+                 case ds of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement eta)
+                        JSON.$fFromJSONXmlBool2
+                   Data.Aeson.Types.Internal.Bool v
+                   -> eta2 v `cast` (Sym (XmlRx.Types.NTCo:XmlBool[0])) }) -}
+51534a96fa3a4fc62293f9ebfd9f6eb8
+  $fFromJSONXmlBool2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'xml_bool' JSON"#) -}
+1eb4bc1ebdec59b055bf703962d14ef1
+  $fFromJSONXmlBool_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.XmlBool
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONXmlBool1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.XmlBool>_R)) -}
+ff95aa93b02f35c4277d78b9b7a197d3
+  $fFromJSONXmlDouble ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.XmlDouble
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONXmlDouble_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.XmlDouble>_N)) -}
+824ae34477af4676bdf6f3d44670dbff
+  $fFromJSONXmlDouble1 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> Data.Aeson.Types.Internal.Failure f r
+    -> Data.Aeson.Types.Internal.Success XmlRx.Types.XmlDouble f r
+    -> f r
+  {- Arity: 3, Strictness: <L,1*U><C(C(S)),1*C1(C1(U))><L,A>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ (f :: * -> *)
+                   @ r
+                   path :: Data.Aeson.Types.Internal.JSONPath
+                   kf :: Data.Aeson.Types.Internal.Failure f r
+                   _ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.XmlDouble f r ->
+                 kf
+                   (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                   JSON.$fFromJSONXmlDouble2) -}
+0d1e5b241095f8842240ea3e53967097
+  $fFromJSONXmlDouble2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'xml_double' JSON"#) -}
+7ea126bd7937b2f50eac17d88b978be5
+  $fFromJSONXmlDouble_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.XmlDouble
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: Data.Aeson.Types.Internal.Value ->
+                 case ds of wild {
+                   DEFAULT
+                   -> JSON.$fFromJSONXmlDouble1
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <XmlRx.Types.XmlDouble>_R))
+                   Data.Aeson.Types.Internal.Number v
+                   -> case v of ww1 { Data.Scientific.Scientific ww2 ww3 ->
+                      let {
+                        a98 :: XmlRx.Types.XmlDouble
+                        = case Data.Scientific.$wtoBoundedRealFloat
+                                 @ GHC.Types.Double
+                                 GHC.Float.$fRealFloatDouble
+                                 ww2
+                                 ww3 of wild1 {
+                            Data.Either.Left x
+                            -> x `cast` (Sym (XmlRx.Types.NTCo:XmlDouble[0]))
+                            Data.Either.Right y
+                            -> y `cast` (Sym (XmlRx.Types.NTCo:XmlDouble[0])) }
+                      } in
+                      (\ @ (f :: * -> *)
+                         @ r
+                         _path :: Data.Aeson.Types.Internal.JSONPath
+                         _kf :: Data.Aeson.Types.Internal.Failure f r
+                         ks :: Data.Aeson.Types.Internal.Success
+                                 XmlRx.Types.XmlDouble f r ->
+                       ks a98)
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <XmlRx.Types.XmlDouble>_R)) } }) -}
+aeb332010a87e5dfe53db9860c575415
+  $fFromJSONXmlText ::
+    Data.Aeson.Types.Class.FromJSON XmlRx.Types.XmlText
+  DFunId[0]
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                JSON.$fFromJSONXmlText_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <XmlRx.Types.XmlText>_N)) -}
+c64bf7702c241c1f8d1052a753b94753
+  $fFromJSONXmlText1 ::
+    Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.XmlText f r
+       -> f r
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ ds :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.XmlText f r ->
+                 case ds of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement eta)
+                        JSON.$fFromJSONXmlText2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2 v `cast` (Sym (XmlRx.Types.NTCo:XmlText[0])) }) -}
+f9c1c3adc1f492f1c7a78ac5b5e57284
+  $fFromJSONXmlText2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Invalid 'xml_text' JSON"#) -}
+487581b0a1d6d55ff510c006e8a8d8b4
+  $fFromJSONXmlText_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.XmlText
+  {- Arity: 4, Strictness: <S,1*U><L,1*U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                JSON.$fFromJSONXmlText1
+                  `cast`
+                (<Data.Aeson.Types.Internal.Value>_R
+                 ->_R Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <XmlRx.Types.XmlText>_R)) -}
+453a1145cfdefacbd97272ceb30c1663
+  $s$fFromJSONMaybe_$cparseJSON20 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# " into a pair"#) -}
+fcf1314d4278bca048dda332bc588eeb
+  $s$fFromJSONMaybe_$cparseJSON21 ::
+    Data.Vector.Generic.Base.Vector
+      Data.Vector.Vector Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Vector.$fVectorVectora
+                   @ Data.Aeson.Types.Internal.Value
+                   (Data.Vector.Mutable.$fMVectorMVectora
+                      @ Data.Aeson.Types.Internal.Value)
+                     `cast`
+                   (Data.Vector.Generic.Mutable.Base.MVector
+                      (Sym (Data.Vector.TFCo:R:MutableVector[0]))
+                      <Data.Aeson.Types.Internal.Value>_N)_R) -}
+16f6bc6fa632c6ea456d00dc69e2f320
+  $s$fFromJSONMaybe_$cparseJSON22 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "(a,b)"#) -}
+1d64b8baaff1401976ee4286b0f18318
+  $s$fFromJSONMaybe_$cparseJSON27 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.StepArg]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.StepArg] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+2454c647ae3cb8465ff8cdc3d07eeb02
+  $s$fFromJSONMaybe_$cparseJSON28 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "[a]"#) -}
+3d8cd5d20ffcd64a4340c50f900d70b7
+  $s$fFromJSONMaybe_$cparseJSON_a109 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.StepArg
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.StepArg
+                   = JSON.$fFromJSONStepArg_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.StepArg f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.StepArg>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.StepArg>_R))) -}
+e41362f388c32320f25662d062ac0475
+  $s$fFromJSONMaybe_$cparseJSON_a110 :: [GHC.Types.Int]
+  {- Unfolding: (GHC.Enum.eftInt 0 9223372036854775807) -}
+12d99049e4317291a4b7512850d1f0b9
+  $s$fFromJSONMaybe_$cparseJSON_pathElem1 ::
+    Data.Aeson.Types.Internal.JSONPathElement
+  {- HasNoCafRefs, Unfolding: (Data.Aeson.Types.Internal.Index 1) -}
+762664d7583c8a0b4bcd00e66a83d392
+  $s$fFromJSONMaybe_$cparseJSON_pathElem17 ::
+    Data.Aeson.Types.Internal.JSONPathElement
+  {- HasNoCafRefs, Unfolding: (Data.Aeson.Types.Internal.Index 0) -}
+27561cd3b4994033bc9f7e751f73b660
+  $s.:14 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentRole]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success
+            [XmlRx.Types.InstrumentRole] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+bb9c858b26787c6b77730aa9090540f4
+  $s.:19 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentType]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success
+            [XmlRx.Types.InstrumentType] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+de1a955fab99d022f82acceb33559075
+  $s.:29 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Alias]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Alias] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+8289d5897b8673b2611b4d416ee34a2d
+  $s.:34 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.MaterialComponent]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success
+            [XmlRx.Types.MaterialComponent] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+cff3e71ce363348a8646ef8adfe46851
+  $s.:40 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Location]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Location] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+a19d326f4845397a6ae04ac0e3623c1c
+  $s.:45 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Instrument]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Instrument] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+1c54913a3a778a521d889dd8c7f27d9f
+  $s.:51 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.IngredientRef f r
+       -> f r
+  {- Arity: 5,
+     Strictness: <L,1*U(U)><S,1*U><L,U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.IngredientRef f r ->
+                 case value of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse1
+                           @ Data.Aeson.Types.Internal.JSONPathElement
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.JSONPathElement
+                              (case idx of dt { GHC.Types.I# dt1 ->
+                               Data.Aeson.Types.Internal.Index dt1 })
+                              eta)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.JSONPathElement))
+                        JSON.$fFromJSONIngredientRef2
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2
+                        v `cast`
+                        (Trans
+                             (Sym (XmlRx.Types.NTCo:XmlText[0]))
+                             (Sym (XmlRx.Types.NTCo:IngredientRef[0]))) }) -}
+bf9dd0086e9cbfb89d8988ddd7246369
+  $s.:52 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.IngredientRef]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success
+            [XmlRx.Types.IngredientRef] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+63c5777a15c11ce10ca38a6df0aaaa8e
+  $s.:59 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success XmlRx.Types.StepPath f r
+       -> f r
+  {- Arity: 5,
+     Strictness: <L,1*U(U)><S,1*U><L,U><L,1*C1(C1(U))><L,1*C1(U)>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value
+                   @ (f :: * -> *)
+                   @ r
+                   eta :: Data.Aeson.Types.Internal.JSONPath
+                   eta1 :: Data.Aeson.Types.Internal.Failure f r
+                   eta2 :: Data.Aeson.Types.Internal.Success
+                             XmlRx.Types.StepPath f r ->
+                 case value of wild {
+                   DEFAULT
+                   -> eta1
+                        (GHC.List.reverse1
+                           @ Data.Aeson.Types.Internal.JSONPathElement
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.JSONPathElement
+                              (case idx of dt { GHC.Types.I# dt1 ->
+                               Data.Aeson.Types.Internal.Index dt1 })
+                              eta)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.JSONPathElement))
+                        JSON.$fFromJSONStepPath3
+                   Data.Aeson.Types.Internal.String v
+                   -> eta2
+                        (GHC.Types.:
+                           @ XmlRx.Types.StepName
+                           v `cast` (Sym (XmlRx.Types.NTCo:StepName[0]))
+                           (GHC.Types.[] @ XmlRx.Types.StepName))
+                          `cast`
+                        (Sym (XmlRx.Types.NTCo:StepPath[0])) }) -}
+bcb97493934fa250db02ff0295ab6883
+  $s.:60 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.StepPath]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.StepPath] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+b13127f5f49b587e8f2bdae939e0c6bb
+  $s.:66 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Stage]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Stage] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+07e882283a26f5c2dcbfe6d18e64d6c2
+  $s.:71 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Operation]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Operation] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+02e538725d9dc3efd70d9bea3e301fc9
+  $s.:76 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Action]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Action] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+bb16261ace7ff47e0ba0cfccb305bdc3
+  $s.:82 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Person]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Person] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+b74ab90a794b2acef2861e539c408b18
+  $s.:87 ::
+    [Data.Aeson.Types.Internal.Parser XmlRx.Types.Recipe]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [XmlRx.Types.Recipe] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+311508293a299bf2f3f4584fdcb58dc2
+  $s.:_a1 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentType
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentType
+                   = JSON.$fFromJSONInstrumentType_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.InstrumentType f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                       <XmlRx.Types.InstrumentType>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.InstrumentType>_R))) -}
+7b87adca524e9a2fb6b8e2f38f897451
+  $s.:_a10 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Recipe
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Recipe
+                   = JSON.$fFromJSONRecipe_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Recipe f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Recipe>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Recipe>_R))) -}
+701ad0252b0426b6538370e955e68f50
+  $s.:_a109 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentRole
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.InstrumentRole
+                   = JSON.$fFromJSONInstrumentRole_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.InstrumentRole f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                       <XmlRx.Types.InstrumentRole>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.InstrumentRole>_R))) -}
+cb5ade5d0e53c69a6d817456874eb63d
+  $s.:_a2 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Alias
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Alias
+                   = JSON.$fFromJSONAlias_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Alias f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Alias>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Alias>_R))) -}
+35f4f3578bdc50cf938b85673a2da544
+  $s.:_a3 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.MaterialComponent
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.MaterialComponent
+                   = JSON.$fFromJSONMaterialComponent_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.MaterialComponent f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                       <XmlRx.Types.MaterialComponent>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.MaterialComponent>_R))) -}
+0f8b99155f095df9d840c61a3b69369e
+  $s.:_a4 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Location
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Location
+                   = JSON.$fFromJSONLocation_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Location f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Location>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Location>_R))) -}
+0fd0b60f9b36129e608df355cf965a11
+  $s.:_a5 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Instrument
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Instrument
+                   = JSON.$fFromJSONInstrument_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.Instrument f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                       <XmlRx.Types.Instrument>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Instrument>_R))) -}
+44e109de3d5e41f4446921355f37d9b9
+  $s.:_a6 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Stage
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Stage
+                   = JSON.$fFromJSONStage_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Stage f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Stage>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Stage>_R))) -}
+df3a5f72face18447add8ebe11eb8cba
+  $s.:_a7 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Operation
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Operation
+                   = JSON.$fFromJSONOperation_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success
+                            XmlRx.Types.Operation f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                       <XmlRx.Types.Operation>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Operation>_R))) -}
+3f38ecb44e069733ff340e70fb0e338f
+  $s.:_a8 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Action
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Action
+                   = JSON.$fFromJSONAction_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Action f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Action>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Action>_R))) -}
+d587e0cfc4848f703301fe2d3a0d5e25
+  $s.:_a9 ::
+    GHC.Types.Int
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser XmlRx.Types.Person
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>,
+     Unfolding: (\ idx :: GHC.Types.Int
+                   value :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   pathElem76 :: Data.Aeson.Types.Internal.JSONPathElement
+                   = case idx of dt { GHC.Types.I# dt1 ->
+                     Data.Aeson.Types.Internal.Index dt1 }
+                 } in
+                 let {
+                   p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.Person
+                   = JSON.$fFromJSONPerson_$cparseJSON value
+                 } in
+                 (\ @ (f :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f r
+                    ks :: Data.Aeson.Types.Internal.Success XmlRx.Types.Person f r ->
+                  p `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.Person>_R)
+                    @ f
+                    @ r
+                    (GHC.Types.:
+                       @ Data.Aeson.Types.Internal.JSONPathElement
+                       pathElem76
+                       path)
+                    kf
+                    ks)
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <XmlRx.Types.Person>_R))) -}
+2dd42841c9a76d7770a3cc9234ac5c27
+  $wa ::
+    GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Array# Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         (XmlRx.Types.XmlDouble, XmlRx.Types.MeasUnit)
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Prim.Int#
+                   ww2 :: GHC.Prim.Array# Data.Aeson.Types.Internal.Value ->
+                 case Data.Vector.Generic.length
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        JSON.$s$fFromJSONMaybe_$cparseJSON21
+                        (Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           ww
+                           ww1
+                           ww2) of wild { GHC.Types.I# x ->
+                 case x of wild1 {
+                   DEFAULT
+                   -> let {
+                        msg39 :: GHC.Base.String
+                        = GHC.CString.unpackAppendCString#
+                            "cannot unpack array of length "#
+                            (case GHC.Show.$wshowSignedInt
+                                    0
+                                    wild1
+                                    (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                             GHC.Base.++
+                               @ GHC.Types.Char
+                               (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                               JSON.$s$fFromJSONMaybe_$cparseJSON20 })
+                      } in
+                      (\ @ (f :: * -> *)
+                         @ r
+                         path :: Data.Aeson.Types.Internal.JSONPath
+                         kf :: Data.Aeson.Types.Internal.Failure f r
+                         _ks :: Data.Aeson.Types.Internal.Success
+                                  (XmlRx.Types.XmlDouble, XmlRx.Types.MeasUnit) f r ->
+                       kf
+                         (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                         msg39)
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <(XmlRx.Types.XmlDouble, XmlRx.Types.MeasUnit)>_R))
+                   2
+                   -> let {
+                        p :: Data.Aeson.Types.Internal.Parser XmlRx.Types.XmlDouble
+                        = case GHC.Prim.indexArray#
+                                 @ Data.Aeson.Types.Internal.Value
+                                 ww2
+                                 ww of ds2 { (##) ipv ->
+                          case ipv of wild2 {
+                            DEFAULT
+                            -> JSON.$fFromJSONXmlDouble1
+                                 `cast`
+                               (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                         <XmlRx.Types.XmlDouble>_R))
+                            Data.Aeson.Types.Internal.Number v
+                            -> case v of ww3 { Data.Scientific.Scientific ww4 ww5 ->
+                               let {
+                                 a98 :: XmlRx.Types.XmlDouble
+                                 = case Data.Scientific.$wtoBoundedRealFloat
+                                          @ GHC.Types.Double
+                                          GHC.Float.$fRealFloatDouble
+                                          ww4
+                                          ww5 of wild3 {
+                                     Data.Either.Left x1
+                                     -> x1 `cast` (Sym (XmlRx.Types.NTCo:XmlDouble[0]))
+                                     Data.Either.Right y
+                                     -> y `cast` (Sym (XmlRx.Types.NTCo:XmlDouble[0])) }
+                               } in
+                               (\ @ (f :: * -> *)
+                                  @ r
+                                  _path :: Data.Aeson.Types.Internal.JSONPath
+                                  _kf :: Data.Aeson.Types.Internal.Failure f r
+                                  ks :: Data.Aeson.Types.Internal.Success
+                                          XmlRx.Types.XmlDouble f r ->
+                                ks a98)
+                                 `cast`
+                               (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                         <XmlRx.Types.XmlDouble>_R)) } } }
+                      } in
+                      let {
+                        p1 :: Data.Aeson.Types.Internal.Parser XmlRx.Types.MeasUnit
+                        = case GHC.Prim.indexArray#
+                                 @ Data.Aeson.Types.Internal.Value
+                                 ww2
+                                 (GHC.Prim.+# ww 1) of ds2 { (##) ipv ->
+                          JSON.$fFromJSONMeasUnit_$cparseJSON ipv }
+                      } in
+                      (\ @ (f :: * -> *)
+                         @ r
+                         path :: Data.Aeson.Types.Internal.JSONPath
+                         kf :: Data.Aeson.Types.Internal.Failure f r
+                         ks :: Data.Aeson.Types.Internal.Success
+                                 (XmlRx.Types.XmlDouble, XmlRx.Types.MeasUnit) f r ->
+                       let {
+                         lvl155 :: [Data.Aeson.Types.Internal.JSONPathElement]
+                         = GHC.Types.:
+                             @ Data.Aeson.Types.Internal.JSONPathElement
+                             JSON.$s$fFromJSONMaybe_$cparseJSON_pathElem1
+                             path
+                       } in
+                       p `cast`
+                       (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                            <XmlRx.Types.XmlDouble>_R)
+                         @ f
+                         @ r
+                         (GHC.Types.:
+                            @ Data.Aeson.Types.Internal.JSONPathElement
+                            JSON.$s$fFromJSONMaybe_$cparseJSON_pathElem17
+                            path)
+                         kf
+                         (\ a98 :: XmlRx.Types.XmlDouble ->
+                          p1
+                            `cast`
+                          (Data.Aeson.Types.Internal.NTCo:Parser[0] <XmlRx.Types.MeasUnit>_R)
+                            @ f
+                            @ r
+                            lvl155
+                            kf
+                            (\ a111 :: XmlRx.Types.MeasUnit -> ks (a98, a111))))
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <(XmlRx.Types.XmlDouble, XmlRx.Types.MeasUnit)>_R)) } }) -}
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Action]
+  = JSON.$fFromJSONAction
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Alias]
+  = JSON.$fFromJSONAlias
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.AliasRole]
+  = JSON.$fFromJSONAliasRole
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Catalog]
+  = JSON.$fFromJSONCatalog
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Chemical]
+  = JSON.$fFromJSONChemical
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Ingredient]
+  = JSON.$fFromJSONIngredient
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.IngredientRef]
+  = JSON.$fFromJSONIngredientRef
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Instrument]
+  = JSON.$fFromJSONInstrument
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.InstrumentRole]
+  = JSON.$fFromJSONInstrumentRole
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.InstrumentType]
+  = JSON.$fFromJSONInstrumentType
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Location]
+  = JSON.$fFromJSONLocation
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Material]
+  = JSON.$fFromJSONMaterial
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.MaterialComponent]
+  = JSON.$fFromJSONMaterialComponent
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.MaterialRole]
+  = JSON.$fFromJSONMaterialRole
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.MeasUnit]
+  = JSON.$fFromJSONMeasUnit
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Operation]
+  = JSON.$fFromJSONOperation
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Parameter]
+  = JSON.$fFromJSONParameter
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Person]
+  = JSON.$fFromJSONPerson
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Process]
+  = JSON.$fFromJSONProcess
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Product]
+  = JSON.$fFromJSONProduct
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Recipe]
+  = JSON.$fFromJSONRecipe
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.RecipeName]
+  = JSON.$fFromJSONRecipeName
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.RecipePath]
+  = JSON.$fFromJSONRecipePath
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.RecipeStatus]
+  = JSON.$fFromJSONRecipeStatus
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.RecipeType]
+  = JSON.$fFromJSONRecipeType
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Site]
+  = JSON.$fFromJSONSite
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.SmilesString]
+  = JSON.$fFromJSONSmilesString
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Stage]
+  = JSON.$fFromJSONStage
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.Step]
+  = JSON.$fFromJSONStep
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.StepArg]
+  = JSON.$fFromJSONStepArg
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.StepArgAction]
+  = JSON.$fFromJSONStepArgAction
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.StepLimit]
+  = JSON.$fFromJSONStepLimit
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.StepName]
+  = JSON.$fFromJSONStepName
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.StepPath]
+  = JSON.$fFromJSONStepPath
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.XmlBool]
+  = JSON.$fFromJSONXmlBool
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.XmlDouble]
+  = JSON.$fFromJSONXmlDouble
+instance Data.Aeson.Types.Class.FromJSON [XmlRx.Types.XmlText]
+  = JSON.$fFromJSONXmlText
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

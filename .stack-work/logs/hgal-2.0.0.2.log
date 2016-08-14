@@ -1,0 +1,16 @@
+Configuring hgal-2.0.0.2...
+Building hgal-2.0.0.2...
+Preprocessing library hgal-2.0.0.2...
+[1 of 4] Compiling Data.Graph.Construction ( Data/Graph/Construction.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Graph/Construction.o )
+[2 of 4] Compiling Data.Graph.Partition ( Data/Graph/Partition.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Graph/Partition.o )
+[3 of 4] Compiling Data.Graph.Permutation ( Data/Graph/Permutation.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Graph/Permutation.o )
+[4 of 4] Compiling Data.Graph.Automorphism ( Data/Graph/Automorphism.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Graph/Automorphism.o )
+
+Data/Graph/Automorphism.hs:250:1: Warning:
+    Top-level binding with no type signature:
+      withUnitPartition :: forall t e.
+                           (Partition -> Array Vertex e -> t) -> Array Vertex e -> t
+In-place registering hgal-2.0.0.2...
+Installing library in
+/usr/haskell/JsonXml/.stack-work/install/x86_64-linux/lts-6.10/7.10.3/lib/x86_64-linux-ghc-7.10.3/hgal-2.0.0.2-HjKqW0qPNLwI7dAijpXwo4
+Registering hgal-2.0.0.2...

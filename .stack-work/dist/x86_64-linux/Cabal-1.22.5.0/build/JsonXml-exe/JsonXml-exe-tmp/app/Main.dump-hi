@@ -1,0 +1,253 @@
+
+==================== FINAL INTERFACE ====================
+2016-08-01 20:57:37.641309 UTC
+
+interface main@main:Main 7103
+  interface hash: dd132750cbc6f0f8efb5aa2c7f046eb5
+  ABI hash: 5c7be639e9d8d8008314e8f3368979c1
+  export-list hash: 9ff7cf4ebe4d1c4970648e8a2c427f79
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ae8d8df7b099d7da46e3b6a5990a6699
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.doConvertJson
+  Main.doLoop
+  Main.main
+module dependencies:
+package dependencies: JsonXml-0.1.0.0@JsonX_CYX1ZKz0trn5l4pYnt4JFa
+                      aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0 base-4.8.2.0
+                      base-compat-0.9.1@basec_3Zy8UsyHmBEEwbReR8x1KT
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-markup-0.7.1.0@blaze_0tKrf28gRcM35aw8gGohhB
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      blaze-html-0.8.1.2@blaze_EuR2jFLDiz00YoBrv2GRvv
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      conduit-1.2.6.6@condu_4vwXa52Mgk2IFQw5U9Vk6r
+                      conduit-extra-1.1.13.2@condu_L9PIKmmvB6i6ET7PDwa4An
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      data-default-instances-base-0.1.0@datad_2INJRDvgZ4jDHH2QJIQkcK
+                      data-default-0.5.3@datad_91CrM49egJd0Gm9c4dN01A
+                      data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk
+                      data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      exceptions-0.8.3@excep_BEih2K3eMGTE4cg5iulra8
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m
+                      generic-deriving-1.10.5@gener_GTO056i6UQHDJwqPe6GRwX
+                      ghc-prim-0.4.0.0 hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      integer-gmp-1.0.0.0
+                      lifted-base-0.2.3.8@lifte_27kQ9DytVyu5Pw2So1Igy3
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      old-locale-1.0.0.7@oldlo_7h2Gx6mVPJ5Gheca8j9Mpe
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      resourcet-1.1.7.4@resou_L55heI7Nh8BIaVlsvt7SIa
+                      scientific-0.3.4.9@scien_1WVNjGUftkQ9QzH4DOM2n1
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      streaming-commons-0.1.15.5@strea_EmmPiWycOZRDBDTh9xaABj
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e
+                      text-show-instances-2.1@texts_HGiPXWBWpoLGQp70buMeAY
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      xml-conduit-1.3.5@xmlco_808MKyOtpBTLdec6OStp4e
+                      xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8
+                      xml-types-0.3.6@xmlty_Ig8FQkC5nvD44nK4uZknsI
+orphans: JsonXml-0.1.0.0@JsonX_CYX1ZKz0trn5l4pYnt4JFa:JSON
+         aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson.Types.Generic
+         aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         data-default-instances-base-0.1.0@datad_2INJRDvgZ4jDHH2QJIQkcK:Data.Default.Instances.Base
+         data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk:Data.Default.Instances.DList
+         data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY:Data.Default.Instances.Containers
+         data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ:Data.Default.Instances.OldLocale
+         generic-deriving-1.10.5@gener_GTO056i6UQHDJwqPe6GRwX:Generics.Deriving.Instances
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Control.Applicative
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Control.Concurrent
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Control.Exception
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Control.Monad.ST
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Array
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Bool
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.ByteString
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Char
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Complex
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Data
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Dynamic
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Either
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Fixed
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Floating
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Functor.Identity
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Integral
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.List
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Maybe
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Monoid
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Ord
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Proxy
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Ratio
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Text
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Tuple
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Type.Coercion
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Type.Equality
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Typeable
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Version
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Data.Void
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Foreign.C.Types
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Foreign.Ptr
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.GHC.Event
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.GHC.Fingerprint
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.GHC.Generics
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.GHC.RTS.Flags
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.GHC.StaticPtr
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.GHC.Stats
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.GHC.TypeLits
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Numeric.Natural
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.System.Exit
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.System.IO
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.System.Posix.Types
+         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.Text.Read
+         text-show-instances-2.1@texts_HGiPXWBWpoLGQp70buMeAY:TextShow.Data.Time
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+         xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8:XmlRx.TextShow
+family instance modules: attoparsec-0.13.0.1@attop_4BHNy1pMBE18T6BnCbBpb0:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         generic-deriving-1.10.5@gener_GTO056i6UQHDJwqPe6GRwX:Generics.Deriving.Base.Internal
+                         generic-deriving-1.10.5@gener_GTO056i6UQHDJwqPe6GRwX:Generics.Deriving.Instances
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.4@resou_L55heI7Nh8BIaVlsvt7SIa:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         text-show-2.1.2@texts_6Y803aTnjlEF6kvaZMFI8e:TextShow.FromStringTextShow
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8:XmlRx.Types
+                         xml-types-0.3.6@xmlty_Ig8FQkC5nvD44nK4uZknsI:Data.XML.Types
+import  -/  JsonXml-0.1.0.0@JsonX_CYX1ZKz0trn5l4pYnt4JFa:JSON d499cf03c3f6c3f399445242be8983db
+import  -/  aeson-0.11.2.0@aeson_GYm66Mz6xXMCtihmFzhH7X:Data.Aeson f350ca8067ea2e8f51cc610dc21b49b2
+import  -/  base-4.8.2.0:Control.Applicative a8ebf5ad4932b411ad7725da68be9801
+import  -/  base-4.8.2.0:Control.Exception e9090e246fba030faecf7b81b3e8e320
+import  -/  base-4.8.2.0:Control.Monad 480c5067477275068c9b98be08410df9
+import  -/  base-4.8.2.0:Data.Either e8724afd65fd432cfe9a54014f5f762d
+import  -/  base-4.8.2.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Generics c00a6d11ff9e9cf35a82831f837d9e97
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.Environment ba6e36000c8274703cf7786fbe8d0f6c
+import  -/  base-4.8.2.0:System.IO 0248c1e850b7ea124cf7a2e1669ebf67
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy 7f48d46f600589dfd94d36d5fcf54f5b
+import  -/  data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD:Data.Default.Class e80ea6ea555665ab4b7ecc52cc0c771c
+import  -/  filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m:System.FilePath.Posix da2bfc0e51fee241a6f2334547c9597d
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  xml-conduit-1.3.5@xmlco_808MKyOtpBTLdec6OStp4e:Text.XML 2b58e65db02eba7c55f1398f3f506129
+import  -/  xml-conduit-1.3.5@xmlco_808MKyOtpBTLdec6OStp4e:Text.XML.Stream.Render 9ae1ea371cf24cf5e3565314992ff606
+import  -/  xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8:XmlRx.Types dc7bf8e5110cb639d83bec49d3070f4d
+import  -/  xmlrx-0.1.0.0@xmlrx_4jDEaj49z0OBxR8pSEYQM8:XmlRx.XmlRender 7a8befe6aa41827b259d24c9deb95e24
+b851e4116252b318090fed88bcd0f493
+  doConvertJson :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.doConvertJson1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+a4a50b807c01ee42c99f07d785bd71dd
+  doConvertJson1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.Internals.wantReadableHandle_1
+                        @ GHC.Base.String
+                        GHC.IO.Handle.Text.hGetLine4
+                        GHC.IO.Handle.FD.stdin
+                        GHC.IO.Handle.Text.hGetLine2
+                          `cast`
+                        (<GHC.IO.Handle.Types.Handle__>_R
+                         ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Base.String>_R))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 Main.doConvertJson2 ipv1 ipv }) -}
+1d128f39f6c9ea583239d5ee5688f701
+  doConvertJson2 ::
+    GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,U><L,U> -}
+719c7fb5ae169850e64528088ed17651
+  doLoop :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.doLoop1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+50f7c19cd48799c25f79613a3708ce5c
+  doLoop1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U> -}
+690fd1347ea789ef9e93bef4bc95bf9f
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.doLoop1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+c5a58b111cc8f4ab96016ec8426ec349
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.doLoop1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

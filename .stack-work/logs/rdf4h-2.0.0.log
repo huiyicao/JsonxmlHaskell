@@ -1,0 +1,27 @@
+Configuring rdf4h-2.0.0...
+Preprocessing library rdf4h-2.0.0...
+[ 1 of 16] Compiling Data.RDF.Types   ( src/Data/RDF/Types.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Types.o )
+[ 2 of 16] Compiling Data.RDF.Namespace ( src/Data/RDF/Namespace.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Namespace.o )
+[ 3 of 16] Compiling Data.RDF.Query   ( src/Data/RDF/Query.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Query.o )
+[ 4 of 16] Compiling Text.RDF.RDF4H.NTriplesSerializer ( src/Text/RDF/RDF4H/NTriplesSerializer.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Text/RDF/RDF4H/NTriplesSerializer.o )
+[ 5 of 16] Compiling Data.RDF.Graph.TriplesList ( src/Data/RDF/Graph/TriplesList.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Graph/TriplesList.o )
+[ 6 of 16] Compiling Data.RDF.Graph.HashMapS ( src/Data/RDF/Graph/HashMapS.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Graph/HashMapS.o )
+[ 7 of 16] Compiling Data.RDF.Graph.HashMapSP ( src/Data/RDF/Graph/HashMapSP.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Graph/HashMapSP.o )
+[ 8 of 16] Compiling Data.RDF.Graph.MapSP ( src/Data/RDF/Graph/MapSP.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Graph/MapSP.o )
+[ 9 of 16] Compiling Data.RDF.Graph.TriplesPatriciaTree ( src/Data/RDF/Graph/TriplesPatriciaTree.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF/Graph/TriplesPatriciaTree.o )
+[10 of 16] Compiling Text.RDF.RDF4H.TurtleSerializer ( src/Text/RDF/RDF4H/TurtleSerializer.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Text/RDF/RDF4H/TurtleSerializer.o )
+[11 of 16] Compiling Text.RDF.RDF4H.ParserUtils ( src/Text/RDF/RDF4H/ParserUtils.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Text/RDF/RDF4H/ParserUtils.o )
+[12 of 16] Compiling Text.RDF.RDF4H.NTriplesParser ( src/Text/RDF/RDF4H/NTriplesParser.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Text/RDF/RDF4H/NTriplesParser.o )
+[13 of 16] Compiling Text.RDF.RDF4H.TurtleParser ( src/Text/RDF/RDF4H/TurtleParser.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Text/RDF/RDF4H/TurtleParser.o )
+[14 of 16] Compiling Text.RDF.RDF4H.XmlParser ( src/Text/RDF/RDF4H/XmlParser.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Text/RDF/RDF4H/XmlParser.o )
+[15 of 16] Compiling Text.RDF.RDF4H.Interact ( src/Text/RDF/RDF4H/Interact.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Text/RDF/RDF4H/Interact.o )
+[16 of 16] Compiling Data.RDF         ( src/Data/RDF.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/RDF.o )
+In-place registering rdf4h-2.0.0...
+Preprocessing executable 'rdf4h' for rdf4h-2.0.0...
+[1 of 1] Compiling Main             ( src/Rdf4hParseMain.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/rdf4h/rdf4h-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/rdf4h/rdf4h ...
+Installing library in
+/usr/haskell/JsonXml/.stack-work/install/x86_64-linux/lts-6.10/7.10.3/lib/x86_64-linux-ghc-7.10.3/rdf4h-2.0.0-01KelCPV5LjIQnmYmB5JsJ
+Installing executable(s) in
+/usr/haskell/JsonXml/.stack-work/install/x86_64-linux/lts-6.10/7.10.3/bin
+Registering rdf4h-2.0.0...
